@@ -1,0 +1,137 @@
+@charset "UTF-8";
+.color {
+  background-color: rgb(48, 48, 48);
+}
+
+.parrafo-uno {
+  font-size: 18px;
+}
+
+.tamaño-imagen {
+  width: 300px;
+  height: 300px;
+}
+
+.centrar-todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media (min-width: 500px) {
+  .mobile {
+    margin: 0;
+    display: grid;
+    grid-template-areas: "mobile mobile" "container centrar-todo container centrar-todo" "row row-cols-2 row row-cols-2" "col col" "tamaño-img tamaño-img";
+    grid-template-columns: 1fr;
+  }
+}
+.ash {
+  background: rgb(48, 48, 48);
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.coloricon {
+  color: black;
+  word-spacing: 30px;
+  min-height: 50px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.videos-veinti {
+  text-align: center;
+}
+
+.carousel-item {
+  margin: 100px;
+  padding-right: 200px;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border: 10px double rgb(46, 45, 45);
+  margin: 20px 10px 20px 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  letter-spacing: 3px;
+  -webkit-text-decoration: wavy;
+          text-decoration: wavy;
+  text-transform: uppercase;
+  margin: 30px;
+}
+
+.lik {
+  text-align: left;
+  color: black;
+  font-size: x-large;
+  display: flex;
+  justify-self: left;
+  align-items: left;
+  justify-content: left;
+}
+
+.coloricon {
+  color: black;
+  word-spacing: 30px;
+  min-height: 50px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logoo {
+  margin-top: none;
+  margin-left: none;
+  border: none;
+  border-radius: none;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  font-family: serif;
+  text-align: center;
+}
+
+body {
+  background: rgb(156, 156, 156);
+  background: radial-gradient(circle, rgb(156, 156, 156) 0%, rgb(8, 8, 8) 100%);
+}
+
+header {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(48, 48, 48) 44%, rgb(87, 87, 87) 100%);
+  padding: 2px;
+}
+
+ul li {
+  list-style-type: none;
+  font-size: 20px;
+  display: inline-block;
+}
+
+p {
+  color: aliceblue;
+  text-align: center;
+  margin: 20px;
+}
+
+.porfa:hover {
+  transform: scale(2);
+}
+
+.porfa {
+  transition: all;
+  transition-duration: 1s;
+}/*# sourceMappingURL=estilos.css.map */
